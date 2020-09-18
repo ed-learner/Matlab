@@ -104,7 +104,7 @@ fprintf('\n')
 fprintf('Extended Kalman Filter performed for %d iterations.\n',itr);
 fprintf('Run "plotresults.m" file to display results.\n');
 fprintf('Run "moving_position_plot.m" file to display position animation.\n');
-toc; % total ekf algorithm execution time
+toc; % total ekf algorithm execution total time
 tidy_working_space;
 
 
